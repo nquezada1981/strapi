@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "singularName": "producto",
+    "pluralName": "productos",
+    "displayName": "Producto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoria": {
+      "type": "string",
+      "required": true
+    },
+    "sub_categoria": {
+      "type": "string",
+      "required": true
+    },
+    "producto": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "producto",
+      "required": true
+    }
+  }
+}
