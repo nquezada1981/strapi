@@ -1457,12 +1457,12 @@
     "@strapi/utils" "4.13.3"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@^4.14.0-alpha.0":
-  version "4.14.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.14.0-alpha.0.tgz#52ee78b5c13dae11b2e169a0a5c9cba3cc85a120"
-  integrity sha512-IUROSXsCCs4Au0ZtF2Kksag6UU2KEIJa7d76oargkjOvsaHH52qCDRgOgOcvxjCelbd6MirUy71wSqz5EMT74A==
+"@strapi/provider-upload-cloudinary@^4.14.0":
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.14.0.tgz#55eb33a92cef33ea79a843ed578886f6c999e4b1"
+  integrity sha512-VFZW4sbNHyEUtjbgRty1e1BX3RwfqqlpAKLUa4inhKfZKLosjLy7laiOOR4AU/S/IPDt8Httr41ORvatR7e1Lw==
   dependencies:
-    "@strapi/utils" "4.14.0-alpha.0"
+    "@strapi/utils" "4.14.0"
     cloudinary "^1.40.0"
     into-stream "^5.1.0"
 
@@ -1585,10 +1585,10 @@
     p-map "4.0.0"
     yup "0.32.9"
 
-"@strapi/utils@4.14.0-alpha.0":
-  version "4.14.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.14.0-alpha.0.tgz#f00518bdc973b88fc5cdc143928a9282fda7b9e2"
-  integrity sha512-uSfAiJa7QGqSsnXWMhIBIUVNOzCAq8VlkR8GaIVMPjOX/MKLXyGmeAx8nqeVdjfHUfkUrj1DLGhVhwysH6WdPQ==
+"@strapi/utils@4.14.0":
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.14.0.tgz#c36bb354f5e98a408d521f04f4de2faa610256e4"
+  integrity sha512-LKpsVwKmHC8iFoQAxRvSH6vjIwqdf3yoLHPGK6fNT0R6C3NTdZvyL+zqHBVtpnpkADoaFw9dYA81kmHGEegKtg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
