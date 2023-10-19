@@ -1457,13 +1457,13 @@
     "@strapi/utils" "4.13.3"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@^4.14.0-alpha.0":
-  version "4.14.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.14.0-alpha.0.tgz#52ee78b5c13dae11b2e169a0a5c9cba3cc85a120"
-  integrity sha512-IUROSXsCCs4Au0ZtF2Kksag6UU2KEIJa7d76oargkjOvsaHH52qCDRgOgOcvxjCelbd6MirUy71wSqz5EMT74A==
+"@strapi/provider-upload-cloudinary@^4.14.5":
+  version "4.14.5"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.14.5.tgz#968055368e0fc1c43ec1e7ce6e391688506adf36"
+  integrity sha512-6u+k9KGmC394ELRCY5PCLfFrj5f8d4hbfU63GtNZFjzGEjkdky4Ri+lQmq5FAGezOwrG8wgmCXl+jVmAtseOQA==
   dependencies:
-    "@strapi/utils" "4.14.0-alpha.0"
-    cloudinary "^1.40.0"
+    "@strapi/utils" "4.14.5"
+    cloudinary "^1.41.0"
     into-stream "^5.1.0"
 
 "@strapi/provider-upload-local@4.13.3":
@@ -1585,10 +1585,10 @@
     p-map "4.0.0"
     yup "0.32.9"
 
-"@strapi/utils@4.14.0-alpha.0":
-  version "4.14.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.14.0-alpha.0.tgz#f00518bdc973b88fc5cdc143928a9282fda7b9e2"
-  integrity sha512-uSfAiJa7QGqSsnXWMhIBIUVNOzCAq8VlkR8GaIVMPjOX/MKLXyGmeAx8nqeVdjfHUfkUrj1DLGhVhwysH6WdPQ==
+"@strapi/utils@4.14.5":
+  version "4.14.5"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.14.5.tgz#6fce660d6b31a6ad3644ec126b880033f02658c4"
+  integrity sha512-0/lC5C2FyaCO+TDBb/jk3CQxtmEbxBZzt0NSb0M6tgAYB6o9eiC2IHZT11Ni98p+GgBlT3AhGQJ5idUa/j/hWA==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
@@ -2898,10 +2898,10 @@ cloudinary-core@^2.13.0:
   resolved "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.13.0.tgz"
   integrity sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==
 
-cloudinary@^1.40.0:
-  version "1.40.0"
-  resolved "https://registry.npmjs.org/cloudinary/-/cloudinary-1.40.0.tgz"
-  integrity sha512-Fifkl8NRw/M+Enw4cKCXc6e0Or28c5y6RVGYS3OCLzT1W8EfBt416FURhLuuL/S4BCVv8bSilmnM746kCtth3g==
+cloudinary@^1.41.0:
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.41.0.tgz#f9ac2653222ed8fb52d4b3d78ddcf7b5556f8c70"
+  integrity sha512-qFf2McjvILJITePf4VF1PrY/8c2zy+/q5FVV6V3VWrP/gpIZsusPqXL4QZ6ZKXibPRukzMYqsQEhaSQgJHKKow==
   dependencies:
     cloudinary-core "^2.13.0"
     core-js "^3.30.1"
